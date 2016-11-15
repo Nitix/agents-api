@@ -7,7 +7,7 @@ import java.io.Serializable;
  */
 public class Message implements Serializable {
 
-    TypeMessage type;
+    public TypeMessage type;
 
     public Message(TypeMessage type) {
         this.type = type;
