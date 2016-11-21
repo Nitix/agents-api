@@ -8,9 +8,11 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class Acheter extends Message {
 
-    public String session;
+    public String nomProduit;
 
-    public boolean accepter;
+    public String marqueProduit;
+
+    public int quantiteProduit;
 
     public Acheter() {
         super(TypeMessage.Achat);
