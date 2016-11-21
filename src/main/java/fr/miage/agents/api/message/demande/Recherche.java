@@ -15,9 +15,9 @@ public class Recherche extends Message {
 
     public String marque;
 
-    public double prixMax;
+    public Double prixMax;
 
-    public double prixMin;
+    public Double prixMin;
 
     public Recherche() {
         super(TypeMessage.Recherche);
