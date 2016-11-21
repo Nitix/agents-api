@@ -8,6 +8,8 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class NegocierPrix extends Message {
 
+    private String sourceNegociation; //Nom du magasin, fournisseur ou client
+
     private float prixDemande;
 
     public NegocierPrix() {
