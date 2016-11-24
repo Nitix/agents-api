@@ -8,9 +8,11 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class ResultatNegociation extends Message {
 
-    private boolean accepterRefuser;
+    public boolean estAccepte;
 
-    private float prixNegocie;
+    public int idSession;
+
+    public float prixNegocie;
 
     public ResultatNegociation() {
         super(TypeMessage.ResultatNegociation);

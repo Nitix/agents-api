@@ -8,6 +8,8 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class Acheter extends Message {
 
+    public int idSession;
+
     public String nomProduit;
 
     public String marqueProduit;
