@@ -1,5 +1,8 @@
 package fr.miage.agents.api.message;
 
+import fr.miage.agents.api.message.reponse.ResultatNegociation;
+import fr.miage.agents.api.message.reponse.ResultatRecherche;
+
 /**
  * Created by nitix on 14/11/16.
  */
@@ -12,5 +15,6 @@ public enum TypeMessage {
     PrevenirSolde,
     Recherche,
 
-    ResultatRecherche;
+    ResultatRecherche,
+    ResultatNegociation;
 }
