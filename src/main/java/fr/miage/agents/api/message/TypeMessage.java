@@ -9,6 +9,7 @@ import fr.miage.agents.api.message.reponse.ResultatRecherche;
 public enum TypeMessage {
 
     Achat,
+    ReponseAchat,
     Aide,
     DemandeDistance,
     NegocierPrix,
