@@ -7,10 +7,13 @@ public enum TypeMessage {
 
     Achat,
     Aide,
+    DemandeCategorie,
     DemandeDistance,
     NegocierPrix,
     PrevenirSolde,
     Recherche,
+    
 
-    ResultatRecherche;
+    ResultatRecherche,
+    ResultatCategorie;
 }

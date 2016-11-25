@@ -10,4 +10,5 @@ public class Categorie implements Serializable {
     int idCategorie;
 
     String nomCategorie;
+    
 }
