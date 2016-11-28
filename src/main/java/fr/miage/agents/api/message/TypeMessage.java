@@ -12,12 +12,15 @@ public enum TypeMessage {
     Achat,
     ReponseAchat,
     Aide,
+    DemandeCategorie,
     DemandeDistance,
     NegocierPrix,
     PrevenirSolde,
     Recherche,
+    
 
     ResultatRecherche,
+    ResultatCategorie,
     ResultatNegociation,
     AppelMethodeIncorrect;
 }
