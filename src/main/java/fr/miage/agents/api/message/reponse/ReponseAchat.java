@@ -1,4 +1,4 @@
-package fr.miage.agents.api.message.demande;
+package fr.miage.agents.api.message.reponse;
 
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
@@ -12,9 +12,7 @@ public class ReponseAchat extends Message {
 
     public UUID session;
 
-    public String nomProduit;
-
-    public String marqueProduit;
+    public long idProduit;
 
     public int quantiteProduit;
 
