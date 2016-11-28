@@ -7,12 +7,7 @@ import java.io.Serializable;
  */
 public class Categorie implements Serializable {
 
-    int idCategorie;
+    public int idCategorie;
 
-    String nomCategorie;
-    
-    public String getNomCategorie(){
-    	return this.nomCategorie;
-    }
-    
+    public String nomCategorie;
 }

@@ -4,9 +4,9 @@ import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
 
 /**
- * Created by nitix on 14/11/16.
+ * Created by Arthur on 25/11/2016.
  */
-public class Acheter extends Message {
+public class ReponseAchat extends Message {
 
     public int idSession;
 
@@ -16,7 +16,9 @@ public class Acheter extends Message {
 
     public int quantiteProduit;
 
-    public Acheter() {
-        super(TypeMessage.Achat);
+    public float prixCalcule;
+
+    public ReponseAchat() {
+        super(TypeMessage.ReponseAchat);
     }
 }

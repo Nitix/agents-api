@@ -6,17 +6,17 @@ import java.io.Serializable;
  * Created by Guillaume on 07/11/2016.
  */
 public class Produit implements Serializable {
-    int idProduit;
+    public int idProduit;
 
-    String nomProduit;
+    public String nomProduit;
 
-    String descriptionProduit;
+    public String descriptionProduit;
 
-    float prixProduit;
+    public float prixProduit;
 
-    int quantiteProduit;
+    public int quantiteProduit;
 
-    Categorie idCategorie;
+    public Categorie idCategorie;
 
-    String marque;
+    public String marque;
 }

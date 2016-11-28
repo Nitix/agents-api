@@ -6,9 +6,9 @@ import fr.miage.agents.api.message.TypeMessage;
 /**
  * Created by nitix on 14/11/16.
  */
-public class DemandeDistane extends Message {
+public class DemandeDistance extends Message {
 
-    public DemandeDistane() {
+    public DemandeDistance() {
         super(TypeMessage.DemandeDistance);
     }
 }
