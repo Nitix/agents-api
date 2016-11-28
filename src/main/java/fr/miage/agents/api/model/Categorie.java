@@ -11,4 +11,8 @@ public class Categorie implements Serializable {
 
     String nomCategorie;
     
+    public String getNomCategorie(){
+    	return this.nomCategorie;
+    }
+    
 }
