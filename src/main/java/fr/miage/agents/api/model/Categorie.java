@@ -7,7 +7,7 @@ import java.io.Serializable;
  */
 public class Categorie implements Serializable {
 
-    public int idCategorie;
+    public long idCategorie;
 
     public String nomCategorie;
 }
