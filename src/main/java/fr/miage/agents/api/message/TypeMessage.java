@@ -1,5 +1,6 @@
 package fr.miage.agents.api.message;
 
+import fr.miage.agents.api.message.reponse.AppelMethodeIncorrect;
 import fr.miage.agents.api.message.reponse.ResultatNegociation;
 import fr.miage.agents.api.message.reponse.ResultatRecherche;
 
@@ -17,5 +18,6 @@ public enum TypeMessage {
     Recherche,
 
     ResultatRecherche,
-    ResultatNegociation;
+    ResultatNegociation,
+    AppelMethodeIncorrect;
 }
