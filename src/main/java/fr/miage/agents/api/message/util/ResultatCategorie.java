@@ -1,4 +1,4 @@
-package fr.miage.agents.api.message.reponse;
+package fr.miage.agents.api.message.util;
 
 import java.util.List;
 

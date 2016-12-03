@@ -1,4 +1,4 @@
-package fr.miage.agents.api.message.reponse;
+package fr.miage.agents.api.message.negociation;
 
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;

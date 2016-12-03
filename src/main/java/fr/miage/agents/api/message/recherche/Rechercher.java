@@ -1,4 +1,4 @@
-package fr.miage.agents.api.message.demande;
+package fr.miage.agents.api.message.recherche;
 
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
@@ -7,7 +7,7 @@ import fr.miage.agents.api.model.Categorie;
 /**
  * Created by nitix on 14/11/16.
  */
-public class Recherche extends Message {
+public class Rechercher extends Message {
 
     public String reference;
 
@@ -19,7 +19,7 @@ public class Recherche extends Message {
 
     public Double prixMin;
 
-    public Recherche() {
+    public Rechercher() {
         super(TypeMessage.Recherche);
     }
 }

@@ -14,8 +14,6 @@ public class Produit implements Serializable {
 
     public float prixProduit;
 
-    public int quantiteProduit;
-
     public Categorie idCategorie;
 
     public String marque;

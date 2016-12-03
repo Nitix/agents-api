@@ -1,4 +1,4 @@
-package fr.miage.agents.api.message.reponse;
+package fr.miage.agents.api.message.negociation;
 
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
@@ -8,7 +8,7 @@ import java.util.UUID;
 /**
  * Created by Arthur on 25/11/2016.
  */
-public class ReponseAchat extends Message {
+public class ResultatFinalisationAchat extends Message {
 
     public UUID session;
 
@@ -16,9 +16,9 @@ public class ReponseAchat extends Message {
 
     public int quantiteProduit;
 
-    public float prixCalcule;
+    public float prixFinal;
 
-    public ReponseAchat() {
-        super(TypeMessage.ReponseAchat);
+    public ResultatFinalisationAchat() {
+        super(TypeMessage.ResultatFinalisationAchat);
     }
 }
