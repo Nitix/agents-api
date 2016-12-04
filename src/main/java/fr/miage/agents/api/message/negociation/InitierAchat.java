@@ -1,5 +1,7 @@
 package fr.miage.agents.api.message.negociation;
 
+import java.util.UUID;
+
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
 
@@ -11,6 +13,8 @@ public class InitierAchat extends Message {
     public int idProduit;
 
     public int quantite;
+    
+    public UUID session;
 
     public InitierAchat() {
         super(TypeMessage.InitierAchat);

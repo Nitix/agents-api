@@ -1,7 +1,7 @@
 package fr.miage.agents.api.message.relationclientsupermarche;
 
 import java.util.Map;
-import java.util.Set;
+import java.util.UUID;
 
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
@@ -16,6 +16,8 @@ public class Achat extends Message {
 	 * La valeur correspond à la quantité demandée
 	 */
 	public Map<Integer,Integer> listeCourses;
+	
+	public UUID Session;
 
 	public Achat() {
         super(TypeMessage.InitierAchat);

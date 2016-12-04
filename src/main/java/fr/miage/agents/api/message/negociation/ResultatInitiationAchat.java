@@ -11,8 +11,8 @@ import java.util.UUID;
 public class ResultatInitiationAchat extends Message{
 
     public UUID session;
-
-    public boolean success;
+    
+    public int quantité;
 
     public ResultatInitiationAchat() {
         super(TypeMessage.ResultatInitiationAchat);
