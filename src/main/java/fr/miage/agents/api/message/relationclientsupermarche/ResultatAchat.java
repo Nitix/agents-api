@@ -1,10 +1,11 @@
 package fr.miage.agents.api.message.relationclientsupermarche;
 
-import fr.miage.agents.api.message.Message;
-import fr.miage.agents.api.message.TypeMessage;
-
 import java.util.Map;
 import java.util.UUID;
+
+import fr.miage.agents.api.message.Message;
+import fr.miage.agents.api.message.TypeMessage;
+import fr.miage.agents.api.model.Produit;
 
 /**
  * Created by nitix on 30/11/16.
@@ -20,7 +21,7 @@ public class ResultatAchat extends Message{
      * une valeur correspondant à la quantité disponible si à l'achat, 
      * la quantité demandée dépassait le stock disponible du supermarché
      */
-    public Map<Integer,Map<Boolean,Integer>> courses;
+    public Map<Produit,Map<Boolean,Integer>> courses;
 
     public ResultatAchat() {
         super(TypeMessage.ResultatInitiationAchat);
