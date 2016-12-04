@@ -10,10 +10,12 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class InitierAchat extends Message {
 
+    public UUID session;
+
     public int idProduit;
 
     public int quantite;
-    
+
     public InitierAchat() {
         super(TypeMessage.InitierAchat);
     }
