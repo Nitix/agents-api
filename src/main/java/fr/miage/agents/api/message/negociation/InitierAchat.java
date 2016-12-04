@@ -14,8 +14,6 @@ public class InitierAchat extends Message {
 
     public int quantite;
     
-    public UUID session;
-
     public InitierAchat() {
         super(TypeMessage.InitierAchat);
     }

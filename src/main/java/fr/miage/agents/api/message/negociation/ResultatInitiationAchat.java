@@ -12,7 +12,7 @@ public class ResultatInitiationAchat extends Message{
 
     public UUID session;
     
-    public int quantité;
+    public boolean success;
 
     public ResultatInitiationAchat() {
         super(TypeMessage.ResultatInitiationAchat);
