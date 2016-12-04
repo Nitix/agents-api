@@ -8,6 +8,11 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class DemanderSession extends Message {
 
+    /**
+     * Message que vas retransmettre le serveur
+     */
+    public String ping;
+
     public DemanderSession() {
         super(TypeMessage.DemanderSession);
     }

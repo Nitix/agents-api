@@ -12,6 +12,11 @@ public class ResultatDemandeSession extends Message {
 
     public UUID session;
 
+    /**
+     * Message retransmit depuis ping
+     */
+    public String pong;
+
     public ResultatDemandeSession() {
         super(TypeMessage.ResultatDemandeSession);
     }
