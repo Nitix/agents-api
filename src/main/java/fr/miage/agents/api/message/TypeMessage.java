@@ -5,6 +5,10 @@ package fr.miage.agents.api.message;
  */
 public enum TypeMessage {
 
+    //Session
+    DemanderSession,
+    ResultatDemandeSession,
+
     //Négociation
     InitierAchat,
     ResultatInitiationAchat,

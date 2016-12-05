@@ -16,6 +16,8 @@ public class ResultatNegociation extends Message {
 
     public float prixNegocie;
 
+    public int quantiteDisponible;
+
     public ResultatNegociation() {
         super(TypeMessage.ResultatNegociation);
     }

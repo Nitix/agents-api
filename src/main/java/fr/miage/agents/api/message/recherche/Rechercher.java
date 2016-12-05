@@ -1,5 +1,7 @@
 package fr.miage.agents.api.message.recherche;
 
+import java.util.UUID;
+
 import fr.miage.agents.api.message.Message;
 import fr.miage.agents.api.message.TypeMessage;
 import fr.miage.agents.api.model.Categorie;
@@ -19,6 +21,8 @@ public class Rechercher extends Message {
 
     public float prixMin;
 
+    public UUID session;
+    
     public Rechercher() {
         super(TypeMessage.Recherche);
     }
