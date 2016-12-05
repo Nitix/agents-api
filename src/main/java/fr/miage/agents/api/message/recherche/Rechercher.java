@@ -9,15 +9,15 @@ import fr.miage.agents.api.model.Categorie;
  */
 public class Rechercher extends Message {
 
-    public String reference;
+    public long idProduit;
 
     public Categorie categorie;
 
     public String marque;
 
-    public Double prixMax;
+    public float prixMax;
 
-    public Double prixMin;
+    public float prixMin;
 
     public Rechercher() {
         super(TypeMessage.Recherche);

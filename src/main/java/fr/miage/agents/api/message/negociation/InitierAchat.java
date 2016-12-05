@@ -8,7 +8,7 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class InitierAchat extends Message {
 
-    public int idProduit;
+    public long idProduit;
 
     public int quantite;
 
