@@ -8,16 +8,9 @@ import fr.miage.agents.api.message.TypeMessage;
  */
 public class Production extends Message {
 
-    public long id;
+    public long idProduit;
 
-    public String nomProduit;
-
-    public int quantiteProduit;
-
-    public int newQuantiteProduit;
-
-    public String marqueProduit;
-
+    public int quantiteProduite;
 
     public Production() {
         super(TypeMessage.Production);
