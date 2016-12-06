@@ -33,6 +33,9 @@ public enum TypeMessage {
     AppelMethodeIncorrect,
     ResultatAide,
 
+    //interClients
+-    DemandeEchange;
+
     //Production
     Production;
 }
