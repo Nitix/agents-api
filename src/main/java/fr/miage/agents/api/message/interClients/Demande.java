@@ -11,6 +11,10 @@ public class Demande extends Message{
     public String produitDemande;
     public int quantiteDemande;
 
+    public Demande() {
+        super(TypeMessage.DemandeEchange);
+    }
+
     public Demande(String produitDemande, int quantiteDemande) {
         super(TypeMessage.DemandeEchange);
         this.produitDemande = produitDemande;
