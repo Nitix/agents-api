@@ -16,6 +16,8 @@ public class ResultatInitiationAchat extends Message{
 
     public int quantiteDisponible;
 
+    public float prixFixe;
+
     public ResultatInitiationAchat() {
         super(TypeMessage.ResultatInitiationAchat);
     }
