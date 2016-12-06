@@ -31,5 +31,8 @@ public enum TypeMessage {
     PrevenirSolde,
     ResultatCategorie,
     AppelMethodeIncorrect,
-    ResultatAide;
+    ResultatAide,
+
+    //interClients
+    DemandeEchange;
 }
