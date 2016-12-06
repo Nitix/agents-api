@@ -14,6 +14,8 @@ public class ResultatNegociation extends Message {
 
     public UUID session;
 
+    public int idProduit;
+
     public float prixNegocie;
 
     public int quantiteDisponible;
