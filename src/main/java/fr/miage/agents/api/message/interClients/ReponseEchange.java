@@ -23,7 +23,7 @@ public class ReponseEchange extends Message{
     }
 
     public ReponseEchange(boolean possedeProduit, HashMap<Produit, Integer> produits, int proposeQuantite, double prix) {
-        super(TypeMessage.DemandeEchange);
+        super(TypeMessage.ReponseEchange);
         this.possedeProduit = possedeProduit;
         this.produits = produits;
         this.prix = prix;
