@@ -34,5 +34,9 @@ public enum TypeMessage {
     ResultatAide,
 
     //interClients
-    DemandeEchange;
+    DemandeEchange,
+    ReponseEchange,
+
+    //Production
+    Production;
 }
