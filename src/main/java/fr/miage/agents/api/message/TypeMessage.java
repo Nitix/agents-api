@@ -38,5 +38,9 @@ public enum TypeMessage {
     ReponseEchange,
 
     //Production
-    Production;
+    Production,
+	
+	//Courses
+	AchatClient,
+	ResultatAchatClient;
 }
