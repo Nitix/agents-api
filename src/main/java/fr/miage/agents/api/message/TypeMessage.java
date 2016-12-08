@@ -35,7 +35,8 @@ public enum TypeMessage {
 
     //interClients
     DemandeEchange,
-
+    ReponseEchange,
+    
     //Production
     Production;
 }
