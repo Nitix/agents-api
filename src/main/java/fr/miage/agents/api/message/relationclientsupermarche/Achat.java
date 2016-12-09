@@ -20,6 +20,6 @@ public class Achat extends Message {
 	public UUID Session;
 
 	public Achat() {
-        super(TypeMessage.InitierAchat);
+        super(TypeMessage.AchatClient);
     }
 }

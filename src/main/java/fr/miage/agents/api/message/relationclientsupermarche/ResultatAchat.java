@@ -15,15 +15,13 @@ public class ResultatAchat extends Message{
     public UUID session;
 
     /**
-     * La premiere clé correspond à l'id du produit
-     * La valeur correspond à la map qui contient : 
-     * une clé booléen si l'achat a été effectué ou non
-     * une valeur correspondant à la quantité disponible si à l'achat, 
-     * la quantité demandée dépassait le stock disponible du supermarché
+     * La premiere clé correspond à l'id du produit 
+     * La valeur correspond à la quantité disponible si la quantité demandée était > au stock
+     * ou bien la quantité demandée
      */
-    public Map<Produit,Map<Boolean,Integer>> courses;
+    public Map<Produit,Integer> courses;
 
     public ResultatAchat() {
-        super(TypeMessage.ResultatInitiationAchat);
+        super(TypeMessage.ResultatAchatClient);
     }
 }
