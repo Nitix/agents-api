@@ -15,7 +15,7 @@ public class Achat extends Message {
 	 * La clé correspond à l'id du produit
 	 * La valeur correspond à la quantité demandée
 	 */
-	public Map<Integer,Integer> listeCourses;
+	public Map<Integer,Long> listeCourses;
 	
 	public UUID Session;
 
