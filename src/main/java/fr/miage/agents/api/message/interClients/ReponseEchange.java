@@ -13,19 +13,22 @@ public class ReponseEchange extends Message{
 
     public boolean possedeProduit;
 
-    // Integer pour la quantité
-    public HashMap<Produit, Integer> produits;
+    public Produit produit;
     public double prix;
 
+    public Produit compensation;
+    public int quantiteCompensation;
 
     public ReponseEchange() {
         super(TypeMessage.ReponseEchange);
     }
 
-    public ReponseEchange(boolean possedeProduit, HashMap<Produit, Integer> produits, int proposeQuantite, double prix) {
+    public ReponseEchange(boolean possedeProduit, Produit produit, double prix, Produit compensation, int quantiteCompensation) {
         super(TypeMessage.ReponseEchange);
         this.possedeProduit = possedeProduit;
-        this.produits = produits;
+        this.produit = produit;
         this.prix = prix;
+        this.compensation = compensation;
+        this.quantiteCompensation = quantiteCompensation;
     }
 }
